@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+.contenedor{
+	width:100%;
+	max-width:2000px;
+	margin:auto;
+}
+body{
+	background-image:url(Img/F1.jpeg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	
+}
+ .p{
+	font-family:"Bauhaus 93";
+	text-align:center;
+	color:#00F;
+	font-size:50px;
+	padding:0px;
+	width:100%;
+	max-width:100%;
+}
+
+
+header nav{
+	background-color:#000;
+	margin-bottom:10px;
+	
+}
+
+header nav ul{
+	list-style:none;
+	overflow:hidden;
+}
+
+header nav ul li{
+	float:left;
+}
+
+header nav ul li a{
+	color:#00F;
+	display:block;
+	padding:20px;
+	text-decoration:none;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+header nav ul li a:hover{
+	background-color:#666;
+}
+
+.menu-f{
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	max-width:100%;
+	
+}
+.menu-f ul li a{
+	padding:15px;
+}
+.m{
+	width:95%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:45px;
+	padding:10px;
+	max-width:80%;
+	margin:auto;
+
+}
+.mt{
+	width:80%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	padding:10px;
+	max-width:80%;
+	margin:auto;
+}
+.logo{
+	width:100%;
+	text-align:center;
+	height:auto;
+}
+.tl{
+	width:620px;
+	height:400px;
+}
+footer{
+	background:#000;
+	max-width:2000px;
+	
+}
+footer p{
+	font-family:"Bauhaus 93";
+	text-align:center;
+	color:#00F;
+	font-size:30px;
+	padding:0px;
+	width:100%;
+	max-width:100%;
+}
+footer ul{
+	list-style:none;
+	overflow:hidden;
+	width:60%;
+	margin:auto;
+}
+
+footer ul li{
+	float:left;
+	color:#00F;
+	display:block;
+	padding:20px;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+footer ul li a{
+	float:left;
+	color:#00F;
+	display:block;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:auto;
+}
+.de{
+	float:right;
+}
+.pa{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:45px;
+	width:100%;
+	margin:auto;
+	padding:10px;
+	text-align:center;
+}
+.cont-pa{
+	width:100%;
+	padding:10px;
+}
+.ic{
+	text-align:center;
+}
+.it{
+	width:800px;
+	height:250px;
+}
+.it2{
+	width:330px;
+	height:220px;
+	background:#CCC;
+	padding:10px;
+
+}
+.st{
+	width:70%;
+	margin:auto;
+}
+.it3{
+	float:right;
+	width:330px;
+	height:220px;
+	background:#CCC;
+}
+.cont-r{
+	width:100%;
+}
+.contv-1{
+	width:100%;
+	margin:auto;
+}
+.mvi{
+	float:left;
+	margin: 0px 10px 0px 85px;
+	width:320px;
+	height:220px;
+}
+.v{
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:45px;
+	padding:10px;
+	text-align:center;
+}
+.vt{
+	width:80%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:10px;
+	max-width:80%;
+	margin:auto;
+}
+	
+	
+	
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+	.menu-f{
+		position:static;
+	}
+	
+	.mt{
+		font-size:20px;
+		width:100%;
+		font-family:Arial, Helvetica, sans-serif;
+		padding:10px;
+		margin:auto;
+	}
+	.m{
+		font-size:35px;
+		width:100%;
+		font-family:Arial, Helvetica, sans-serif;
+		padding:10px;
+		margin:auto;
+	}
+	.contenedor{
+		padding:0px;
+		margin:auto;
+
+	}
+	.logo{
+		max-width:100%;
+		text-align:center;
+		height:auto;
+		display:none;
+	}
+	footer ul{
+	  width:100%;
+	}
+	.it{
+	  display:none;
+	}
+	.tl{
+	display:none;
+    }
+	.it2{
+	display:none;
+
+	}
+	.it3{
+	display:none;
+	}.mvi{
+    display:none;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 850px){
+	.menu-f{
+		position:static;
+	}
+	
+	.mt{
+		font-size:20px;
+		width:100%;
+		font-family:Arial, Helvetica, sans-serif;
+		padding:10px;
+		margin:auto;
+	}
+	.m{
+		font-size:35px;
+		width:100%;
+		font-family:Arial, Helvetica, sans-serif;
+		padding:10px;
+		margin:auto;
+	}
+	.contenedor{
+		padding:0px;
+		margin:auto;
+
+	}
+	.logo{
+		max-width:100%;
+		text-align:center;
+		height:auto;
+	}
+	
+	footer ul{
+	  width:100%;
+	}
+	.it{
+	width:600px;
+	height:150px;
+	}
+	.tl{
+	width:420px;
+	height:280px;
+    }
+	.it2{
+	width:200px;
+	height:120px;
+	}
+	.it3{
+	width:200px;
+	height:110px;
+	}
+}
+	@media screen and (min-width: 800px) and (max-width:1000px) {
+	.it2{
+	width:200px;
+	height:120px;
+	}
+	.it3{
+	width:200px;
+	height:110px;
+	}
+}
+	@media screen and (min-width: 851px) and (max-width:1024px) {
+	header nav ul li a{
+	color:#00F;
+	display:block;
+	padding:20px;
+	text-decoration:none;
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+	}
+	footer ul{
+	  width:100%;
+	}
+
+}
+
+   
+
+
+
+
+	
+
